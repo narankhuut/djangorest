@@ -25,7 +25,7 @@ SECRET_KEY = '%5vio$u@95fq@)ril@+acs@89m9g7z%%*-@ldm0!f_@&=%!!j8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ 'localhost', '127.0.0.1', '10.163.198.200' ]
+ALLOWED_HOSTS = [ 'localhost', '127.0.0.1', 'mergenard.pythonanywhere.com' ]
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog',
+    'blog', 
 ]
 
 MIDDLEWARE = [
