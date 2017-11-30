@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# djangogirls documentation build configuration file, created by
-# sphinx-quickstart on Thu Nov 30 13:34:14 2017.
+# Djangogirls documentation build configuration file, created by
+# sphinx-quickstart on Thu Nov 30 14:55:24 2017.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -33,6 +33,7 @@
 # ones.
 extensions = ['sphinx.ext.autodoc',
     'sphinx.ext.doctest',
+    'sphinx.ext.imgmath',
     'sphinx.ext.viewcode']
 
 # Add any paths that contain templates here, relative to this directory.
@@ -48,7 +49,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'djangogirls'
+project = 'Djangogirls'
 copyright = '2017, Nate'
 author = 'Nate'
 
@@ -71,7 +72,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -85,7 +86,7 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -114,7 +115,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'djangogirlsdoc'
+htmlhelp_basename = 'Djangogirlsdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -141,7 +142,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'djangogirls.tex', 'djangogirls Documentation',
+    (master_doc, 'Djangogirls.tex', 'Djangogirls Documentation',
      'Nate', 'manual'),
 ]
 
@@ -151,7 +152,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'djangogirls', 'djangogirls Documentation',
+    (master_doc, 'djangogirls', 'Djangogirls Documentation',
      [author], 1)
 ]
 
@@ -162,8 +163,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'djangogirls', 'djangogirls Documentation',
-     author, 'djangogirls', 'One line description of project.',
+    (master_doc, 'Djangogirls', 'Djangogirls Documentation',
+     author, 'Djangogirls', 'One line description of project.',
      'Miscellaneous'),
 ]
 

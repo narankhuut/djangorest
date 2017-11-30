@@ -1,9 +1,9 @@
-.. djangogirls documentation master file, created by
-   sphinx-quickstart on Thu Nov 30 13:34:14 2017.
+.. Djangogirls documentation master file, created by
+   sphinx-quickstart on Thu Nov 30 14:55:24 2017.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to djangogirls's documentation!
+Welcome to Djangogirls's documentation!
 =======================================
 
 .. toctree::
